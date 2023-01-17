@@ -3,11 +3,13 @@ import 'package:layout1/Screen2.dart';
 import 'package:layout1/homePage.dart';
 import 'package:layout1/screen3.dart';
 import 'package:layout1/screen4.dart';
+import 'package:layout1/screen5.dart';
+import 'package:layout1/screen6.dart';
 
 void main() {
   runApp(
     MaterialApp(debugShowCheckedModeBanner: false,
-      home: S4(),
+      home: S6(),
     ),
   );
 }
