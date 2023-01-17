@@ -5,11 +5,12 @@ import 'package:layout1/screen3.dart';
 import 'package:layout1/screen4.dart';
 import 'package:layout1/screen5.dart';
 import 'package:layout1/screen6.dart';
+import 'package:layout1/screen7.dart';
 
 void main() {
   runApp(
     MaterialApp(debugShowCheckedModeBanner: false,
-      home: S6(),
+      home: S7(),
     ),
   );
 }
