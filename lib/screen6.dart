@@ -52,6 +52,7 @@ class _S6State extends State<S6> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: TextField(
+                decoration: InputDecoration(hintText: "Usernasme"),
                 style: TextStyle(fontSize: 20,color: Colors.grey),
               ),
             ),
@@ -59,6 +60,7 @@ class _S6State extends State<S6> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: TextField(
+                decoration: InputDecoration(hintText: "Password"),
                 style: TextStyle(fontSize: 20,color: Colors.grey),
               ),
             ),
