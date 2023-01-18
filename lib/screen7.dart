@@ -64,14 +64,8 @@ class _S7State extends State<S7> {
                       height: 100,
                       width: 100,
                       decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(360),
-                          color: Colors.white),
-                      child: Image(
-                        image: AssetImage(
-                          "assets/images/vidit.png",
-                        ),
-                        fit: BoxFit.fill,
-                      ),
+                          borderRadius: BorderRadius.circular(360)),
+                      child: CircleAvatar(backgroundImage: NetworkImage("assets/images/vidit.png",)),
                     ),
                     SizedBox(
                       height: 15,
@@ -225,7 +219,7 @@ class _S7State extends State<S7> {
                                   width: 50,
                                   decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(360)),
-                                  child: Image.asset("assets/images/vidit.png"),
+                                  child: CircleAvatar(backgroundImage: NetworkImage("assets/images/vidit.png",)),
                                 ),
                                 SizedBox(width: 20,),
                                 Column(
